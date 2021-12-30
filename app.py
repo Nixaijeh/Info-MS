@@ -52,5 +52,5 @@ def on_message(self, message):
         ['amount'
         ]
     ))
-    db.set
+    db.set  
     ('pool', pickle.dumps(pool))
